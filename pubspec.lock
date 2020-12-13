@@ -333,16 +333,20 @@ packages:
   teflink_core:
     dependency: "direct main"
     description:
-      path: "../core"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "0b55809262cf189bbb1a1499b1d536f5043ce47a"
+      url: "https://github.com/TeFlink/core.git"
+    source: git
     version: "0.0.0"
   teflink_dot_env:
     dependency: transitive
     description:
-      path: "../dot_env"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: d82b3cf781e27fec107bdf362e5bafdc3e057eda
+      url: "https://github.com/TeFlink/dot_env.git"
+    source: git
     version: "0.0.0"
   term_glyph:
     dependency: transitive
