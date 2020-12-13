@@ -10,7 +10,10 @@ dependencies:
   ansicolor: ^1.1.1
   enough_ascii_art: ^0.9.7
   teflink_core:
-    path: ../core
+    git:
+      url: https://github.com/TeFlink/core.git
+      ref: master
+    # path: ../core
 
 dev_dependencies:
   pedantic: ^1.8.0
