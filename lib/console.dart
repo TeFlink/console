@@ -1,6 +1,6 @@
 import 'package:enough_ascii_art/enough_ascii_art.dart';
 import 'package:ansicolor/ansicolor.dart';
-import 'package:core/core.dart';
+import 'package:teflink_core/core.dart';
 
 void printWithColor(String message) {
   final pen = AnsiPen()

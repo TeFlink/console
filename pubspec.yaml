@@ -1,15 +1,15 @@
-name: console
+name: teflink_console
 description: A sample command-line application.
 # version: 1.0.0
 # homepage: https://www.example.com
 
 environment:
-  sdk: '>=2.7.0 <3.0.0'
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   ansicolor: ^1.1.1
   enough_ascii_art: ^0.9.7
-  core:
+  teflink_core:
     path: ../core
 
 dev_dependencies:
